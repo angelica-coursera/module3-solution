@@ -38,6 +38,7 @@ h3 { /* Menu Category */
   font-size: 1.5em; /* 1vw = 1% of viewport width */
   color: RebeccaPurple;
   font-weight: bold;
+  font-style: center;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -50,13 +51,16 @@ h3 { /* Menu Category */
 
 #nav-list a {
   color: orange;
+  border: 1px solid yellow;
   text-align: center;
 }
+
 #nav-list a:hover {
   background: #E7E7E7;
 }
 #nav-list a span {
   font-size: 1.8em;
+}
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
